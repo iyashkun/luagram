@@ -17,12 +17,12 @@ Luagram is a comprehensive Telegram Bot API wrapper for Lua, inspired by Pyrogra
 ### Via Git (Recommended)
 
 ```bash
---Install dependencies first
+# Install dependencies first
 luarocks install luasocket
 luarocks install luasec
 luarocks install lua-cjson
 
---Install Luagram from Git
+# Install Luagram from Git
 git clone https://github.com/iYashKun/luagram.git
 cd luagram
 luarocks make
