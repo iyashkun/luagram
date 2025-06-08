@@ -15,7 +15,7 @@ This document provides comprehensive examples of using Luagram to create Telegra
 
 ## Basic Examples
 
-### Hello World Bot
+### A Simple Luagram Bot
 
 The simplest possible bot that responds to the `/start` command:
 
@@ -27,7 +27,7 @@ local bot = luagram.Client.new(os.getenv("BOT_TOKEN"))
 
 -- Handle /start command
 bot:on_message(luagram.filters.command("start"), function(client, message)
-    client:send_message(message.chat.id, "Hello, World! 🌍")
+    client:send_message(message.chat.id, "Hello, welcome to luagram!")
 end)
 
 -- Start the bot
