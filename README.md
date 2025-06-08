@@ -4,7 +4,6 @@ Luagram is a comprehensive Telegram Bot API wrapper for Lua, inspired by Pyrogra
 
 ## Features
 
-- **Complete API Coverage**: All Telegram Bot API methods and types
 - **Pyrogram-inspired Design**: Familiar API for Pyrogram users
 - **Event Handling**: Robust event handling system with filters
 - **File Operations**: Upload and download files with ease
@@ -18,12 +17,12 @@ Luagram is a comprehensive Telegram Bot API wrapper for Lua, inspired by Pyrogra
 ### Via Git (Recommended)
 
 ```bash
-# Install dependencies first
+--Install dependencies first
 luarocks install luasocket
 luarocks install luasec
 luarocks install lua-cjson
 
-# Install Luagram from Git
-git clone https://github.com/yourusername/luagram.git
+--Install Luagram from Git
+git clone https://github.com/iYashKun/luagram.git
 cd luagram
 luarocks make
